@@ -1,0 +1,52 @@
+.page {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.synopsiswhy {
+  font-style: italic;
+}
+
+.synopsishow {
+  font-style: normal;
+}
+
+h1 {
+   font-family: "Times New Roman", "Arial", sans-serif;
+   font-weight: bold;
+}
+
+p {
+  text-align: auto;
+}
+
+h1, p {
+  background-color: #DDE0E3;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #9AA5B2;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #F8F6F6;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
